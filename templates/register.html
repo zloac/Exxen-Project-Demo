@@ -1,0 +1,14 @@
+{% extends "exxen.html" %}
+{% load static %}
+
+{% block content %}
+
+    <div class="container">
+        <form action="" method="POST" class="w-50 m-auto p-4 text-light">
+            {% csrf_token %}
+            {{form}}
+            <input type="submit" value="Kayıt ol" class="btn btn-primary mt-2">
+        </form>
+    </div>
+
+{% endblock content %}
