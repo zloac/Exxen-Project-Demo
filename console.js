@@ -1,0 +1,2 @@
+//comment
+console.loh("something")
