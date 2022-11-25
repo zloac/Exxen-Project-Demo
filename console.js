@@ -1,2 +1,3 @@
 //comment
-console.loh("something")
+console.log("something")
+console.log("something2")
